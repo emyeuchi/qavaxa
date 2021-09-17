@@ -22,3 +22,6 @@ body {
   border: solid 3px white;
   border-radius: 10px;
 }
+p.box {
+  margin: -2em 0 -2em 0;
+}
