@@ -7,13 +7,14 @@
 </head>
 <body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<div class="box">
+	<div class="ppp">
 		<p id="dico"></p>
 		<script type="text/javascript">
     $(function(){
       $.getJSON("dictionary.json", function(sample_list){
         for(var i in sample_list){
-          var h = '<h4 class="font">'
+          var h = '<div class="box">'
+					+ '<h4 class="font">'
 					+ sample_list[i].title
 					+ '</h4>'
 					+ '<h4>'
@@ -27,6 +28,7 @@
 					+ '</p>';
 					+ sample_list[i].log
 					+ '</p>';
+					'</div>'
           $("p#dico").append(h);
         }
       });
