@@ -14,19 +14,15 @@
       $.getJSON("dictionary.json", function(sample_list){
         for(var i in sample_list){
           var h = '<div class="box">'
-					+ '<h4>'
+					+ '<h3>'
 					+ '<div  class="font">'
 					+ sample_list[i].title
 					+ '</div>'
 					+ sample_list[i].title
-					+ '</h4>'
+					+ '</h3>'
 					+ '<p>'
 					+ sample_list[i].meaning
-					+ '</p>';
-					+ '<p>'
 					+ sample_list[i].content
-					+ '</p>';
-					+ '<p>'
 					+ sample_list[i].log
 					+ '</p>';
 					+ '</div>'
