@@ -22,7 +22,6 @@
     $(function(){
       $.getJSON("dictionary.json", function(sample_list){
         for(var i in sample_list) {
-        var t = index[i];
           var h = '<div class="box">'
 					+ '<h2>'
 					+ '<div  class="font caption">'
@@ -48,7 +47,8 @@
 					+ '</div>'
           $("p#dico").append(h);
         }
-    };
+      });
+    });
   </script>
 	</div>
 </body>
