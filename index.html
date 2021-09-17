@@ -139,9 +139,12 @@ function keyword_search(articleData, keywords, jsonKeys) {
     }
     return matchIndex;
 }
-    $(function(){
-      $.getJSON("dictionary.json", function(sample_list){
-        for(var i in sample_list){
+
+	function generate_result(articleData, index) {
+    var data = articleData['data'];
+    var ins = '';
+    for (var i = 0; i < index.length; i++) {
+        var t = index[i];
           var h = '<div class="box">'
 					+ '<h2>'
 					+ '<div  class="font caption">'
