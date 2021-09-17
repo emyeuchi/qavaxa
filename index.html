@@ -23,6 +23,37 @@
 			var jsonPath = 'dictionary.json'; // 記事情報のjsonのパス
 			var jsonKeys = ['title', 'meaning', 'content']; // 検索対象にするjson内のキー
 			var output = "#dico"; // 検索対象にするjson内のキー
+			
+			$(function(){
+    // URLからキーワードを取得
+    var s = get_search_keywords(paramKey);
+ 
+    if(s) {
+        // ajaxで記事情報を取得
+        $.ajax({
+            url: jsonPath,
+            cache: false
+        })
+        .then(
+            function (data) {
+                // キーワードに一致する記事情報のインデックスを取得
+                var index = keyword_search(data, s, jsonKeys);
+                if(index.length >0) {
+                    // 検索結果一覧を生成
+                    generate_result(data, index);
+                } else {
+                    alert('キーワードに一致する記事がありませんでした。');
+                }
+            },
+            function () {
+                console.log('取得に失敗しました。');
+            }
+        );
+    } else {
+        alert('キーワードが入力されていません。');
+    }
+});
+			
 			function get_search_keywords(key) {
     // URLからパラメータ取得
     var params = [];
