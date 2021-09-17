@@ -19,7 +19,11 @@
 	<div class="ppp">
 		<p id="dico"></p>
 		<script type="text/javascript">
-function get_search_keywords(key) {
+			var paramKey = 'keyword'; // 検索キーワードとして取得するパラメータのキー
+			var jsonPath = 'dictionary.json'; // 記事情報のjsonのパス
+			var jsonKeys = ['title', 'meaning', 'content']; // 検索対象にするjson内のキー
+			var output = "#dico"; // 検索対象にするjson内のキー
+			function get_search_keywords(key) {
     // URLからパラメータ取得
     var params = [];
     var param = location.search.substring(1).split('&');
