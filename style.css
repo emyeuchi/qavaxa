@@ -27,8 +27,8 @@ body {
 .box {
   padding: 0.5em 1em;
   margin: 0.5em;
-  color: white;
-  background: #00a968;
+  color: black;
+  background: #89c997;
   border: solid 3px white;
   border-radius: 10px;
 }
