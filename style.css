@@ -27,4 +27,5 @@ p.box {
 }
 .caption {
   float: left;
+  margin:0 0 0 5em;
 }
