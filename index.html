@@ -13,12 +13,20 @@
     $(function(){
       $.getJSON("dictionary.json", function(sample_list){
         for(var i in sample_list){
-          var h = '<dt>'
-                + sample_list[i].title
-                + '</dt>'
-                + '<dd>'
-                + sample_list[i].meaning
-                + '</dd>';
+          var h = '<h4 class="font">'
+					+ sample_list[i].title
+					+ '</h4>'
+					+ '<h4>'
+					+ sample_list[i].title
+					+ '</h4>'
+					+ '<p>'
+					+ sample_list[i].meaning
+					+ '</p>';
+					+ '<p>'
+					+ sample_list[i].content
+					+ '</p>';
+					+ sample_list[i].log
+					+ '</p>';
           $("p#dico").append(h);
         }
       });
