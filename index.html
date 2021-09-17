@@ -14,22 +14,26 @@
       $.getJSON("dictionary.json", function(sample_list){
         for(var i in sample_list){
           var h = '<div class="box">'
-					+ '<h3>'
+					+ '<h2>'
 					+ '<div  class="font caption">'
 					+ sample_list[i].title
 					+ '</div>'
 					+ '<div  class="caption">'
 					+ sample_list[i].title
 					+ '</div>'
-					+ '</h3>'
+					+ '</h2>'
 					+ '<br>'
+					+ '<h3>意味</h3>'
 					+ '<p>'
 					+ sample_list[i].meaning
-					+ '<br>'
+					+ '</p>'
+					+ '<h3>解説</h3>'
+					+ '<p>'
 					+ sample_list[i].content
-					+ '<br>'
+					+ '</p>'
+					+ '<h3>記録</h3>'
+					+ '<p>'
 					+ sample_list[i].log
-					+ '<br>'
 					+ '</p>';
 					+ '</div>'
           $("p#dico").append(h);
