@@ -11,14 +11,14 @@ body {
   margin: 0;
   padding: 0;
   color: white;
-  background-color: white;
+  background-color: #c0a2c7;
   font-family: "游ゴシック", sans-serif;
 }
 .box {
   padding: 0.5em 1em;
   margin: 2em 0;
   color: white;
-  background: royalblue;
+  background: #522f60;
   border: solid 3px white;
   border-radius: 10px;
 }
