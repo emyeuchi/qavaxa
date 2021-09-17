@@ -14,7 +14,7 @@
       $.getJSON("dictionary.json", function(sample_list){
         for(var i in sample_list){
           var h = '<div class="box">'
-					+ '<h3 class="title">'
+					+ '<h3>'
 					+ '<div  class="font caption">'
 					+ sample_list[i].title
 					+ '</div>'
@@ -24,8 +24,11 @@
 					+ '</h3>'
 					+ '<p>'
 					+ sample_list[i].meaning
+					+ '<br>'
 					+ sample_list[i].content
+					+ '<br>'
 					+ sample_list[i].log
+					+ '<br>'
 					+ '</p>';
 					+ '</div>'
           $("p#dico").append(h);
