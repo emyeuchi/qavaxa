@@ -24,6 +24,10 @@ body {
   font-family: serif;
   line-height: 50%;
 }
+.header {
+  margin: 0;
+  text-align: center;
+}
 .box {
   padding: 0.5em 1em;
   margin: 0.5em;
