@@ -28,6 +28,10 @@ body {
   margin: 5em 0 5em 0;
   text-align: center;
 }
+.search {
+  float: right;
+  margin: 1em;
+}
 .box {
   padding: 0.5em 1em;
   margin: 0.5em;
