@@ -1,16 +1,103 @@
 [
   {
-    "title": "le",
-    "pronunciation": "le",
-    "meaning": "の",
-    "content": "品詞",
+    "title": "",
+    "meaning": "",
+    "content": "",
     "log": "2021.09.17."
-  },
-   {
+  }, {
+    "title": "fasso",
+    "meaning": "people, human, human beings, subject",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "guye",
+    "meaning": "nation, state, country",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "hato",
+    "meaning": "association, organization, insutitution",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
     "title": "kuva",
-    "pronunciation": "kuva",
-    "meaning": "私",
-    "content": "品詞",
+    "meaning": "I, me",
+    "content": "pronoun",
+    "log": "2021.09.17."
+  }, {
+    "title": "kuvana",
+    "meaning": "we, us",
+    "content": "pronoun",
+    "log": "2021.09.17."
+  }, {
+    "title": "le",
+    "meaning": "of",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "litera",
+    "meaning": "lead",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "pato",
+    "meaning": "about, in",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "qavajxa",
+    "meaning": "qavajxa, qavaxa, qavaaxa",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "mivutu",
+    "meaning": "welcome, go out to meet",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "nayan",
+    "meaning": "nayan, king, emperor",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "siva",
+    "meaning": "you",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "tokinom",
+    "meaning": "religion",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "va",
+    "meaning": "great, big",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "vin",
+    "meaning": "in, at",
+    "content": "prace",
+    "log": "2021.09.17."
+  }, {
+    "title": "yai",
+    "meaning": "good, well, often",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "yaitore",
+    "meaning": "welcome",
+    "content": "呼びかけに用いる",
+    "log": "2021.09.17."
+  }, {
+    "title": "yemeri",
+    "meaning": "and, so",
+    "content": "",
+    "log": "2021.09.17."
+  }, {
+    "title": "zide",
+    "meaning": "be, is, am, are",
+    "content": "",
     "log": "2021.09.17."
   }
 ]
