@@ -29,7 +29,8 @@ body {
   text-align: center;
 }
 .search {
-  margin:1em 0 1em auto
+  margin:1em;
+  text-align: right;
 }
 .box {
   padding: 0.5em 1em;
