@@ -7,6 +7,22 @@
   <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
-  <ul id="dictionary"></ul>
+<dl id="wrap">
+  <script type="text/javascript">
+    $(function(){
+      $.getJSON("index.json", function(sample_list){
+        for(var i in sample_list){
+          var h = '<dt>'
+                + sample_list[i].title
+                + '</dt>'
+                + '<dd>'
+                + sample_list[i].meaning
+                + '</dd>';
+          $("dl#wrap").append(h);
+        }
+      });
+    });
+  </script>
+</dl>
 </body>
 </html>
