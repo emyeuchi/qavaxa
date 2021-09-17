@@ -14,10 +14,10 @@
       $.getJSON("dictionary.json", function(sample_list){
         for(var i in sample_list){
           var h = '<div class="box">'
-					+ '<h4 class="font">'
-					+ sample_list[i].title
-					+ '</h4>'
 					+ '<h4>'
+					+ '<div  class="font">'
+					+ sample_list[i].title
+					+ '</div>'
 					+ sample_list[i].title
 					+ '</h4>'
 					+ '<p>'
@@ -29,7 +29,7 @@
 					+ '<p>'
 					+ sample_list[i].log
 					+ '</p>';
-					'</div>'
+					+ '</div>'
           $("p#dico").append(h);
         }
       });
